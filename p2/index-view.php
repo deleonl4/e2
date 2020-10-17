@@ -54,7 +54,7 @@
     </h2>
     <h3>
         <form method='GET' action='process.php'>
-            <input type='radio' name='choice' value='Rock' id='Rock'><label for='Rock'>Rock</label>
+            <input type='radio' name='choice' value='Rock' id='Rock' checked><label for='Rock'>Rock</label>
             <input type='radio' name='choice' value='Scissors' id='Scissors'><label for='Scissors'>Scissors</label>
             <input type='radio' name='choice' value='Paper' id='Paper'><label for='Paper'>Paper</label>
     </h3>
@@ -64,7 +64,7 @@
     </form>
 
     <hr>
-
+    <?php if ($haveResults) {?>
     <h2>
         RESULTS:
     </h2>
@@ -82,6 +82,7 @@
     } else {
         ?>
     <h4 style="color:#b30000;">Shoot again !</h4> <?php
+    }
     }
   ?>
 </body>
