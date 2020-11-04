@@ -64,7 +64,7 @@
     </form>
 
     <hr>
-    <?php if ($haveResults) {?>
+    <?php if ($haveResults): {?>
     <h2>
         RESULTS:
     </h2>
@@ -76,15 +76,13 @@
     </h4>
 
 
-    <?php if ($winner) { ?>
+    <?php if ($winner): ?>
     <h3 style="color:#008000;">Congratulations !</h3>
-    <?php
-    } else {
-        ?>
+    <?php else :?>
     <h4 style="color:#b30000;">Shoot again !</h4> <?php
-    }
-    }
+        
   ?>
+    <?php endif ?>
 </body>
 
 </html>
