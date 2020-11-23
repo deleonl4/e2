@@ -14,7 +14,7 @@
 </ul>
 @elseif($confirmationName)
 <div class='alert alert-success'>
-    Thank you, {{ $confirmationName }} for your review!!!
+    Thank you for your review, {{ $confirmationName }}!
 </div>
 @endif
 
@@ -56,7 +56,7 @@
 </div>
 @endforeach
 @else
-<div>No reviews yet</div>
+<div>No reviews yet.</div>
 @endif
 
 

@@ -1,20 +1,16 @@
-<!doctype html>
-<html lang='en'>
+@extends('templates.master')
 
-<head>
+@section('title')
+Product Not Found
+@endsection
 
-    <title>Product Not Found</title>
-    <meta charset='utf-8'>
+@section('content')
 
-</head>
 
-<body>
+<h2>Product {{ $id }} Not Found</h2>
 
-    <h2>Product Not Found</h2>
-    <a href='{{ $app->config('app.url') }}'>{{ $app->config('app.url') }}</a>
-    <p> Uh oh - we were not able to find the product you were looking for. </p>
-    <a href="http://myapp.loc/products" Check out our selection of products...>
+<p> Uh oh - we were not able to find the product you were looking for. </p>
 
-</body>
+<a href="http://myapp.loc/products" Check out our selection of products...>
 
-</html>
+    @endsection
