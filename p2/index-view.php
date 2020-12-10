@@ -36,10 +36,10 @@
     </h2>
     <ul>
         <li>
-            Player 1 (You) and Player 2 (Computer) select between items: Rock, Paper or Scissors.
+            Player 1 (You) and Player 2 (Computer) select between items: Rock, Scissors, or Paper.
         </li>
         <li>
-            The game will be a tie if both players select the same item.
+            The game will be a tie if both players select the same item. You will have to shoot again.
         </li>
         <li>
             Otherwise: Rock beats Scissors, Paper beats Rock, and Scissors beats Paper.

@@ -1,0 +1,51 @@
+body {
+    font-family: arial;
+    background-color: #fbec00;
+}
+
+#logo {
+    width: 300px;
+}
+
+.logo {
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotext {
+    text-align: center;
+    font-size: 10px;
+}
+
+.won {
+    color: #fbec00;
+    font-size: 150%;
+    background: black;
+    padding: 20px;
+    margin: 30px;
+}
+
+.lost {
+    color:  #fbec00;
+    font-size: 150%;
+    background: black;
+    padding: 20px;
+    margin: 30px;
+}
+
+.button {
+    padding: 6px;
+    font-size :15px;
+    background-color: white;
+    border-radius: 8px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 10px;
+    margin: 10px;
+    color: rgb(113, 29, 192);
+}
